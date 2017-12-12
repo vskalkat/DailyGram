@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q1C-DZ-G7A">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search-->
+        <scene sceneID="FhJ-O3-5pl">
+            <objects>
+                <viewController id="aMA-HI-dAm" customClass="SearchViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PmR-KS-eoe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Mj6-Xz-8xY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Search" image="magnify" selectedImage="magnify" id="0xn-Em-IKP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iQe-o1-gn5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-959" y="2624"/>
+        </scene>
+        <!--Camera-->
+        <scene sceneID="bsU-jE-YOy">
+            <objects>
+                <viewController id="wh7-Mh-tdz" customClass="CameraViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ysj-dK-4dg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="gou-rG-ezg"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Camera" image="instagram" selectedImage="instagram" id="hQx-py-YsX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jgL-iv-Isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="118" y="2624"/>
+        </scene>
+        <!--Activity-->
+        <scene sceneID="5jl-L3-g4J">
+            <objects>
+                <viewController id="KWu-Qr-0yf" customClass="ActivityViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2yh-R5-lMo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Lgf-3z-BpR"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Activity" image="heart-outline" selectedImage="heart" id="Oxo-8e-Pve"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q0e-iL-w2z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1223" y="2597"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="wpc-dJ-wWS">
+            <objects>
+                <viewController id="641-Nl-gLv" customClass="ProfileViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7FM-pa-Z4V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="79R-8C-Yi2"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="account-outline" selectedImage="account" id="IKn-h9-eG5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j8t-M7-MMt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2326" y="2597"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="dbm-9i-zso">
+            <objects>
+                <viewController id="9VE-9F-wrR" customClass="HomeViewController" customModule="InstagramClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6vR-Zl-4eb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="3IQ-0g-ful"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="home-outline" selectedImage="home" id="S7I-30-FZb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TMX-Am-SFq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2122" y="2624"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="IrO-zr-RVI">
+            <objects>
+                <tabBarController id="q1C-DZ-G7A" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TEK-hc-nNk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9VE-9F-wrR" kind="relationship" relationship="viewControllers" id="PSv-ws-TrK"/>
+                        <segue destination="aMA-HI-dAm" kind="relationship" relationship="viewControllers" id="LRs-ci-cLm"/>
+                        <segue destination="wh7-Mh-tdz" kind="relationship" relationship="viewControllers" id="wa7-my-tTw"/>
+                        <segue destination="KWu-Qr-0yf" kind="relationship" relationship="viewControllers" id="1r4-kC-zxy"/>
+                        <segue destination="641-Nl-gLv" kind="relationship" relationship="viewControllers" id="D8O-Sl-PWH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CkA-gO-5VH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="1774"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="account" width="36" height="36"/>
+        <image name="account-outline" width="36" height="36"/>
+        <image name="heart" width="36" height="36"/>
+        <image name="heart-outline" width="36" height="36"/>
+        <image name="home" width="36" height="36"/>
+        <image name="home-outline" width="36" height="36"/>
+        <image name="instagram" width="36" height="36"/>
+        <image name="magnify" width="36" height="36"/>
+    </resources>
+</document>
